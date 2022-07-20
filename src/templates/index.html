@@ -131,16 +131,16 @@
           <a class="btn-item" href="https://www.w3docs.com/quiz/#">Select Quiz</a>
         </div>
       </div>
-      <form action="/">
+      <form method="POST" action="/api/data">
         <div class="title">
           <i class="fas fa-pencil-alt"></i>
           <h2>Register here</h2>
         </div>
         <div class="info">
-          <input class="fname" type="text" name="name" placeholder="Full name">
-          <input type="text" name="name" placeholder="Email">
-          <input type="text" name="name" placeholder="Phone number">
-          <input type="password" name="name" placeholder="Password">
+          <input class="fname" type="text" name="name" id="name" placeholder="Full name">
+          <input type="text" name="email" id="email" placeholder="Email">
+          <input type="text" name="phno" id="phno" placeholder="Phone number">
+          <input type="password" name="pass" id="pass" placeholder="Password">
           <select>
             <option value="course-type" selected>Course type*</option>
             <option value="short-courses">Short courses</option>

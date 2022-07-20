@@ -4,3 +4,6 @@ flask-session
 flask-cors
 pytz
 requests
+pymongo
+flask_pymongo
+dnspython
